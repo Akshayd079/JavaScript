@@ -1,0 +1,90 @@
+h1 {
+    text-align: center
+}
+
+.input , .output {
+    text-align : center;
+    /* width: 300px; */
+    border: 15px solid rgb(44, 84, 110);
+    border-style :ridge;
+    border-radius: 50px;
+    padding: 50px;
+    margin : 20px;
+    background-color :rgba(179, 216, 218, 0.507)
+}
+
+
+h2 {
+    text-align: center;
+    font-weight : bold;
+
+}  
+
+.form {
+    text-align: center
+}
+.name input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+input {width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+  }
+
+input[type = "date"]{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+input[type = "number"]{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+input[type = "button"]{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size :medium;
+}
+
+th,td{
+    text-align: left;
+    padding: 8px
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
